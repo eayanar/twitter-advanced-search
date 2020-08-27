@@ -34,6 +34,8 @@ Geo | `near:city` | Geotagged in this place. Also supports Phrases, eg: "The Hag
 &nbsp; | | | 
 Time | `since:yyyy-mm-dd` | On or after a specified date | [🔗](https://twitter.com/search?q=since%3A2019-06-12%20until%3A2019-06-28%20%23nasamoontunes&src=typed_query)
 &nbsp; | `until:yyyy-mm-dd` | On or before a specified date. Combine with the "since" operator for dates between. | [🔗](https://twitter.com/search?q=since%3A2019-06-12%20until%3A2019-06-28%20%23nasamoontunes&src=typed_query)
+&nbsp; | `since_time:epoch_time` | On or before a specified time. Combine with the "since" operator for dates between. | [🔗](https://twitter.com/search?q=since%3A2019-06-12%20until%3A2019-06-28%20%23nasamoontunes&src=typed_query)
+&nbsp; | `until_time:epoch_time` | On or before a specified time. Combine with the "since" operator for dates between. | [🔗](https://twitter.com/search?q=since%3A2019-06-12%20until%3A2019-06-28%20%23nasamoontunes&src=typed_query)
 &nbsp; | `max_id:tweet_id` | Snowflake ID based for exact time search (see [Note](#snowflake-ids) below) | [🔗](https://twitter.com/search?q=since_id%3A1138872932887924737%20max_id%3A1144730280353247233%20%23nasamoontunes&src=typed_query)
 &nbsp; | `since_id:tweet_id` | Works together with `max_id` and another operator | [🔗](https://twitter.com/search?q=since_id%3A1138872932887924737%20max_id%3A1144730280353247233%20%23nasamoontunes&src=typed_query)
 &nbsp; | | | 
