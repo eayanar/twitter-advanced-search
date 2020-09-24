@@ -1,4 +1,4 @@
-# Advanced Search on Twitter
+﻿# Advanced Search on Twitter
 
 ![👀](https://repository-images.githubusercontent.com/200083171/7d2f7d80-b492-11e9-8f1b-4a5863429dca)
 
@@ -292,7 +292,7 @@ twitter_ads
 tweetdeck
 twitter_for_advertisers
 twitter_media_studio
-cloudhopper (tweets via sms service)
+cloudhopper (tweets vi sms service)
 ```
 
 </p>
