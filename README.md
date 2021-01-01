@@ -27,6 +27,7 @@ Users | `from:user` | Sent by a particular `@username` e.g. `"dogs from:NASA"` |
 &nbsp; | `filter:verified` | From verified users | [🔗](https://twitter.com/search?q=filter%3Averified&src=typed_query)
 &nbsp; | | | 
 Geo | `near:city` | Geotagged in this place. Also supports Phrases, eg: "The Hague" | [🔗](https://twitter.com/search?q=near%3A%22The%20Hague%22&src=typed_query)
+&nbsp; | `near:city,city` | Near supports search upto two cities | [🔗](https://twitter.com/search?q=near%3AChennai%2Cbengaluru&src=typed_query)
 &nbsp; | `near:me` | Near where twitter thinks you are | [🔗](https://twitter.com/search?q=near%3Ame&src=typed_query)
 &nbsp; | `within:radius` | Within specific radius of the "near" operator, to apply a limit. Can use km or mi. e.g. `fire near:san-francisco within:10km` | [🔗](https://twitter.com/search?q=fire%20near%3Asan-francisco%20within%3A10km&src=typed_query)
 &nbsp; | `geocode:lat,long,radius` | E.g., to get tweets 10km around twitters hq, use `geocode:37.7764685,-122.4172004,10km` | [🔗](https://twitter.com/search?q=geocode%3A37.7764685%2C-122.4172004%2C10km&src=typed_query)
